@@ -1,0 +1,169 @@
+h1,h2,h3,h4,h5,h6,p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav .title{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+nav{
+    background-color: #2C3E50;
+}
+
+
+li .nav-link{
+    color: white !important;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    margin-right: 25px !important;
+}
+footer{
+    background-color: #2C3E50;
+}
+footer .box h2{
+font-size: 28px;
+font-weight: 400;
+}
+footer .box p{
+    font-size: 16px;
+    font-weight: 400;
+}
+footer .icon{
+    width: 40px;
+    height: 40px;
+    border: white 1px solid;
+    background-color: transparent;
+    border-radius: 50%;
+    position: relative;
+    margin:  5px;
+}
+footer .icon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   transform: translatex(-50%) translatey(-50%);
+}
+.line{
+    background-color: #1A252F;
+    color: white;
+    padding: 15px;
+    margin: 0 !important;
+}
+.line p{
+    margin: 0;
+}
+.home{
+    background-color: #1ABC9C;
+}
+.dash::before{
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+.dash::after{
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+}
+.title{
+    font-size:40px;
+    font-weight: 700;
+}
+.about{
+    background-color: #1ABC9C;
+}
+.active{
+    background-color: #1ABC9C !important;
+    border-radius: 15px;
+    padding: 10px;
+}
+.contact .dashh::before{
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 12%;
+}
+.contact .dashh::after{
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+}
+.input-group .form-control{
+    border: none;
+    border-bottom: rgba(128, 128, 128, 0.322) 1px solid !important;
+ 
+
+}
+.input-group .form-control:focus{
+    box-shadow: none;
+}
+.contact button{
+    background-color: #1ABC9C;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+}
+.porto{
+    color:#2C3E50;
+}
+.dashh::before{
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color:#2C3E50;
+    position: absolute;
+    top: 50%;
+    left: 12%;
+}
+.dashh::after{
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color:#2C3E50;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+}
+.proto .box{
+    background-color:#1ABC9C;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 24px;
+    left: 24px;
+    z-index: 111;
+    border-radius: 8px;
+    opacity: 0;
+    transition: all 1s;
+}
+.proto .box i{
+    font-size: 96px;
+    font-weight: 900;
+    color: white;
+    
+}
+
+.proto .photo:hover .box{
+    opacity:.8 ;
+}
+  
+
+
